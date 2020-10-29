@@ -5,7 +5,8 @@ It contains a simple interoperablity solution which reads data from Reddit, filt
 ## What The Sample Does
 
 This sample has an interoperability [production](https://github.com/intersystems-community/iris-interoperability-template/blob/master/src/dc/Demo/Production.cls) with an inbound [Reddit Adapter](https://github.com/intersystems-community/iris-interoperability-template/blob/master/src/dc/Reddit/InboundAdapter.cls) which is used by a [Business Service](https://github.com/intersystems-community/iris-interoperability-template/blob/master/src/dc/Demo/RedditService.cls) to read data from Reddit.com.
-By default it reads from reddit.com/new/.json but you can alter this in the service's settings.
+It reads from reddit.com/new/.json every 15 sec.
+You can alter both the URL and frequency in the service's settings.
 <img width="1411" alt="Screenshot 2020-10-29 at 19 33 14" src="https://user-images.githubusercontent.com/2781759/97603605-a6d0af00-1a1d-11eb-99cc-481efadb0ec6.png">
 
 The production has business pocess with the rule which fiters news which contains mentions of cats and dogs and sends this data into business operation which either saves into source folder /output/Dog.txt or /output/Cat.txt.
