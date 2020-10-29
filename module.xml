@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="objectscript-sample.ZPM">
+  <Document name="interoperability-sample.ZPM">
     <Module>
-      <Name>objectscript-sample</Name>
+      <Name>interoperability-sample</Name>
+      <Description>A simple IRIS interoperability application - reads data from Reddit and filter it.</Description>
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="PackageSample.PKG"/>
+      <Resource Name="dc.Reddit.PKG"/>
+      <Resource Name="dc.Demo.PKG"/>
+      <SystemRequirements Version=">=2020.1" Interoperability="enabled" />
     </Module>
   </Document>
 </Export>
