@@ -9,7 +9,7 @@ It reads from reddit.com/new/.json every 15 sec.
 You can alter both the URL and frequency in the service's settings.
 <img width="1411" alt="Screenshot 2020-10-29 at 19 33 14" src="https://user-images.githubusercontent.com/2781759/97603605-a6d0af00-1a1d-11eb-99cc-481efadb0ec6.png">
 
-The production has business pocess with the rule which fiters news which contains mentions of cats and dogs and sends this data into business operation which either saves into source folder /output/Dog.txt or /output/Cat.txt.
+The production has a business process with a rule, which filters on news that mentions cats and dogs. The business process then sends this data to a business operation which either saves data to a source folder /output/Dog.txt or /output/Cat.txt.
 <img width="864" alt="Screenshot 2020-10-29 at 19 38 58" src="https://user-images.githubusercontent.com/2781759/97606568-fcf32180-1a20-11eb-90de-4257dd2cf552.png"> 
 
 ## Prerequisites
@@ -53,8 +53,8 @@ You can alter the [business rule](http://localhost:52795/csp/irisapp/EnsPortal.R
 ## How to alter the template 
 Use the green    "Use this template" button on Github to copy files into a new repository and build a new IRIS interoperability solution using this one as an example.
 
-This repository is ready to code in VSCode with ObjectScript plugin.
+This repository is ready to code in VSCode with the ObjectScript plugin.
 Install [VSCode](https://code.visualstudio.com/), [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) and [ObjectScript](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript) plugin and open the folder in VSCode.
 
-Use handy VSCode menu to access production and business rule editor and run a terminal:
+Use the handy VSCode menu to access the production and business rule editor and run a terminal:
 <img width="656" alt="Screenshot 2020-10-29 at 20 15 56" src="https://user-images.githubusercontent.com/2781759/97608650-aa673480-1a23-11eb-999e-61e889304e59.png">
