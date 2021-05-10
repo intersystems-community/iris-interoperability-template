@@ -1,4 +1,4 @@
-Class dc.Reddit.Post Extends (%Persistent, %JSON.Adaptor)
+Class dc.Reddit.Post Extends (%Persistent, %JSON.Adaptor, %XML.Adaptor)
 {
 
 Parameter %JSONIGNOREINVALIDFIELD = 1;
