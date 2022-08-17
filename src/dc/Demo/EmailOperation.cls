@@ -17,9 +17,9 @@ Method SendEmail(pRequest As dc.Demo.PostMessage, Output pResponse As Ens.Respon
 
     Set (title,author,url) = ""
     If ($IsObject(pRequest.Post)) {
-        Set title = pRequest.Post.title
-        Set author = pRequest.Post.author
-        Set url = pRequest.Post.url
+        Set title = pRequest.Post.Title
+        Set author = pRequest.Post.Author
+        Set url = pRequest.Post.Url
     }
     Do mailMessage.TextData.WriteLine("More info:")
     Do mailMessage.TextData.WriteLine("Title: "_title)
