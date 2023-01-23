@@ -4,5 +4,6 @@
     Do ##class(Security.Users).UnExpireUserPasswords("*")
 
     zn "USER"
+    zpm "install git-source-control"
     zpm "load /home/irisowner/irisbuild/ -v":1:1
     halt

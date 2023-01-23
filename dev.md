@@ -88,3 +88,13 @@ IRISAPP:zpm>test package-name
 ### install ZPM with one line
     // Install ZPM
     set $namespace="%SYS", name="DefaultSSL" do:'##class(Security.SSLConfigs).Exists(name) ##class(Security.SSLConfigs).Create(name) set url="https://pm.community.intersystems.com/packages/zpm/latest/installer" Do ##class(%Net.URLParser).Parse(url,.comp) set ht = ##class(%Net.HttpRequest).%New(), ht.Server = comp("host"), ht.Port = 443, ht.Https=1, ht.SSLConfiguration=name, st=ht.Get(comp("path")) quit:'st $System.Status.GetErrorText(st) set xml=##class(%File).TempFilename("xml"), tFile = ##class(%Stream.FileBinary).%New(), tFile.Filename = xml do tFile.CopyFromAndSave(ht.HttpResponse.Data) do ht.%Close(), $system.OBJ.Load(xml,"ck") do ##class(%File).Delete(xml)
+
+## export source-control-settings
+```
+do $System.OBJ.Export("SYS*.GBL","/irisdev/app/src/gbl/SYS.xml",,.errors)
+```
+
+## setup source-control
+```
+d ##class(SourceControl.Git.API).Configure()
+```

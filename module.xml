@@ -4,7 +4,7 @@
     <Module>
       <Name>interoperability-sample</Name>
       <Description>A simple IRIS interoperability application - reads data from Reddit and filter it.</Description>
-      <Version>0.0.5</Version>
+      <Version>0.1.0</Version>
       <Packaging>module</Packaging>
       <Dependencies>
         <ModuleReference>
@@ -17,6 +17,7 @@
       <Resource Name="TestLookupTable.LUT"/>
       <Resource Name="dc.Reddit.PKG"/>
       <Resource Name="dc.Demo.PKG"/>
+      <Resource Name="SYS.GBL"/>
       <SystemRequirements Version=">=2020.1" Interoperability="enabled" />
     </Module>
   </Document>
