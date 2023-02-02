@@ -5,5 +5,5 @@
 
     zn "USER"
     zpm "install git-source-control"
-    zpm "load /home/irisowner/irisbuild/ -v":1:1
+    zpm "load WORKDIR /home/irisowner/irisdev -v":1:1
     halt
