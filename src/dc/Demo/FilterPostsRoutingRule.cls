@@ -1,4 +1,4 @@
-/// This is a business rule sample
+/// This is a sample business rule
 Class dc.Demo.FilterPostsRoutingRule Extends Ens.Rule.Definition
 {
 

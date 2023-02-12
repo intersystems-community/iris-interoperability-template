@@ -5,5 +5,8 @@
 
     zn "USER"
     zpm "install git-source-control"
+    do ##class(%Studio.SourceControl.Interface).SourceControlClassSet("SourceControl.Git.Extension")
+
+
     zpm "load /home/irisowner/irisbuild/ -v":1:1
     halt
