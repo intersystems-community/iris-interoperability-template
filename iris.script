@@ -5,6 +5,7 @@
 
     zn "USER"
     zpm "install git-source-control"
+    zpm "install passwordless"
     do ##class(%Studio.SourceControl.Interface).SourceControlClassSet("SourceControl.Git.Extension")
 
 
