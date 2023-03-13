@@ -5,9 +5,9 @@
 
     zn "USER"
     zpm "install git-source-control"
-    zpm "install passwordless"
     do ##class(%Studio.SourceControl.Interface).SourceControlClassSet("SourceControl.Git.Extension")
-
+    zpm "install passwordless"
+    
 
     zpm "load /home/irisowner/irisdev/ -dev -v":1:1
     halt
