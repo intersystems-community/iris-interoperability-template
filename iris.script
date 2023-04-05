@@ -7,7 +7,8 @@
     zpm "install git-source-control"
     do ##class(%Studio.SourceControl.Interface).SourceControlClassSet("SourceControl.Git.Extension")
     zpm "install passwordless"
-    
+    zpm "install objectscript-json-trace-viewer"
+
 
     zpm "load /home/irisowner/irisdev/ -dev -v":1:1
     halt
