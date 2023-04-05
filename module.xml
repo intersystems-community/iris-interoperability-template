@@ -9,7 +9,11 @@
       <Dependencies>
         <ModuleReference>
           <Name>sslclient</Name>
-          <Version>1.0.1</Version>
+          <Version>1.0.*</Version>
+        </ModuleReference>
+        <ModuleReference>
+          <Name>objectscript-json-trace-viewer</Name>
+          <Version>1.0.*</Version>
         </ModuleReference>
       </Dependencies>
       <SourcesRoot>src</SourcesRoot>
