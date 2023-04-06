@@ -1,10 +1,10 @@
 /// As a base class you can use Ens.Request or Grongier.JsonTraceViewer.Request
-/// 
+///
 /// With Ens.Request you will see messages in xml format in Message Viewer
 /// With Grongier.JsonTraceViewer.Request you will see messages in json format
-/// 
-/// Class Grongier.JsonTraceViewer.Request - is one of the classes from package "objectscript-json-trace-viewer" (published on https://openexchange.intersystems.com/)
-/// Classes from "objectscript-json-trace-viewer" package are designed to view messages in json format.
+///
+/// Class Grongier.JsonTraceViewer.Request - is one of the classes from package "objectscript-json-trace-viewer" (published on https://openexchange.intersystems.com/package/JsonTraceViewer)
+/// Classes from "objectscript-json-trace-viewer" package are designed to show Request and Response messages in json format.
 Class dc.Demo.PostMessage Extends Grongier.JsonTraceViewer.Request
 {
 
