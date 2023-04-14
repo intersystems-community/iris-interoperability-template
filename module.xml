@@ -18,7 +18,7 @@
       </Dependencies>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="Ens.Config.DefaultSettings.ESD"/>
-      <Resource Name="TestLookupTable.LUT"/>
+      <Resource Directory="i14y" Name="TestLookupTable.LUT"/>
       <Resource Name="dc.Reddit.PKG"/>
       <Resource Name="dc.Demo.PKG"/>
       <SystemRequirements Version=">=2020.1" Interoperability="enabled" />
