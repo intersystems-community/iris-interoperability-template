@@ -12,6 +12,8 @@ on:
   release:
     types:
       - released
+permissions:
+  contents: write
 
 jobs:
   build:
