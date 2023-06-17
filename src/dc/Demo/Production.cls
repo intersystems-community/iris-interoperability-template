@@ -24,7 +24,7 @@ XData ProductionDefinition
   </Item>
   <Item Name="dc.Demo.FileOperation" Category="" ClassName="dc.Demo.FileOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">
     <Setting Target="Adapter" Name="Charset">utf-8</Setting>
-    <Setting Target="Adapter" Name="FilePath">/home/irisowner/irisdev/output/</Setting>
+    <Setting Target="Adapter" Name="FilePath">/home/irisowner/dev/output/</Setting>
   </Item>
 </Production>
 }

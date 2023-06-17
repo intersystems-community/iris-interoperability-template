@@ -10,5 +10,5 @@
     zpm "install objectscript-json-trace-viewer"
 
 
-    zpm "load /home/irisowner/irisdev/ -dev -v":1:1
+    zpm "load /home/irisowner/dev/ -dev -v":1:1
     halt
