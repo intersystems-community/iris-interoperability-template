@@ -15,6 +15,10 @@
           <Name>objectscript-json-trace-viewer</Name>
           <Version>1.0.*</Version>
         </ModuleReference>
+        <ModuleReference>
+          <Name>production-settings</Name>
+          <Version>*</Version>
+        </ModuleReference>
       </Dependencies>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="Ens.Config.DefaultSettings.ESD"/>
@@ -22,6 +26,12 @@
       <Resource Name="dc.Reddit.PKG"/>
       <Resource Name="dc.Demo.PKG"/>
       <SystemRequirements Version=">=2020.1" Interoperability="enabled" />
+      <Default Name="SampleToken" Value="TokenValue" />
+      <Invoke Class="dc.Demo.Setup" Method="Init" >
+         <Arg>${SampleToken}</Arg>
+      </Invoke>
+      <Invoke Class="dc.Demo.Setup" Method="StartProduction" >
+      </Invoke>
     </Module>
   </Document>
 </Export>

@@ -98,3 +98,6 @@ do $System.OBJ.Export("SYS*.GBL","/dev/app/src/gbl/SYS.xml",,.errors)
 ```
 d ##class(SourceControl.Git.API).Configure()
 ```
+
+## setup production with env variable
+d ##class(dc.Demo.Setup).Init($system.Util.GetEnviron("SAMPLE_TOKEN"))
