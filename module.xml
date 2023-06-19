@@ -4,7 +4,7 @@
     <Module>
       <Name>interoperability-sample</Name>
       <Description>A simple IRIS interoperability application - reads data from Reddit and filter it.</Description>
-      <Version>0.2.4</Version>
+      <Version>0.2.5</Version>
       <Packaging>module</Packaging>
       <Dependencies>
         <ModuleReference>
