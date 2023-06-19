@@ -26,7 +26,7 @@
       <Resource Name="dc.Reddit.PKG"/>
       <Resource Name="dc.Demo.PKG"/>
       <SystemRequirements Version=">=2020.1" Interoperability="enabled" />
-      <Default Name="SampleToken" Value="TokenValue" />
+      <Default Name="SampleToken" Value="40" />
       <Invoke Class="dc.Demo.Setup" Method="Init" >
          <Arg>${SampleToken}</Arg>
       </Invoke>

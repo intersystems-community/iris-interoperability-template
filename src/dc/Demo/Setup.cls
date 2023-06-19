@@ -6,7 +6,7 @@ Class dc.Demo.Setup
     set production="dc.Demo.Production"
 
     set item="dc.Demo.RedditService"
-    set st=##class(dc.Demo.RedditService).SetValue(production,item,"Limit",TokenValue)
+    set st=##class(shvarov.i14y.Settings).SetValue(production,item,"Limit",TokenValue)
     return st
 }
 
