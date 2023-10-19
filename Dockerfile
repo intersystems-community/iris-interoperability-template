@@ -1,6 +1,5 @@
 ARG IMAGE=intersystemsdc/irishealth-community
 ARG IMAGE=intersystemsdc/iris-community
-#FROM $IMAGE
 FROM $IMAGE as builder
 
 WORKDIR /home/irisowner/dev/
